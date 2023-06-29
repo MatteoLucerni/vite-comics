@@ -11,19 +11,29 @@
             <h3>FOLLOW US</h3>
           </li>
           <li>
-            <img src="../assets/img/footer-facebook.png" alt="facebook logo">
+            <a href="#">
+              <img src="../assets/img/footer-facebook.png" alt="facebook logo">
+            </a>
           </li>
           <li>
-            <img src="../assets/img/footer-twitter.png" alt="">
+            <a href="#">
+              <img src="../assets/img/footer-twitter.png" alt="Twitter logo">
+            </a>
           </li>
           <li>
-            <img src="../assets/img/footer-youtube.png" alt="">
+            <a href="#">
+              <img src="../assets/img/footer-youtube.png" alt="Youtube logo">
+            </a>
           </li>
           <li>
-            <img src="../assets/img/footer-pinterest.png" alt="">
+            <a href="#">
+              <img src="../assets/img/footer-pinterest.png" alt="Pinterest logo">
+            </a>
           </li>
           <li>
-            <img src="../assets/img/footer-periscope.png" alt="">
+            <a href="#">
+              <img src="../assets/img/footer-periscope.png" alt="Periscope logo">
+            </a>
           </li>
         </ul>
       </div>

@@ -62,7 +62,7 @@ export default {
     </section>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 section {
     background-color: black;
     background-image: url('../../assets/img/dc-logo-bg.png'), url('../../assets/img/footer-bg.jpg');
@@ -79,6 +79,10 @@ h3 {
 a {
     color: gray;
     font-size: 0.8rem;
+
+    &:hover {
+        color: white;
+    }
 }
 
 .row {

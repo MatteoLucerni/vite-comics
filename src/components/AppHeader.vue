@@ -77,6 +77,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/vars' as *;
+
 header {
   background-color: #fff;
   padding-bottom: 7px;
@@ -107,5 +109,10 @@ a {
   display: flex;
   align-items: center;
   box-sizing: content-box;
+}
+
+ul a:hover {
+  color: $blue;
+  border-bottom: 7px solid $blue;
 }
 </style>
