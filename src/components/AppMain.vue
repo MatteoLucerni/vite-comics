@@ -14,6 +14,8 @@ export default {
 
 <template>
   <MainContent />
+  <MainJumbo />
+  <MainFooter />
 </template>
 
 <style scoped></style>

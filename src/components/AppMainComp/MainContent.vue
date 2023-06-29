@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section>
+    <section id="content">
         <div class="container">
             <h1>
                 Content goes here
