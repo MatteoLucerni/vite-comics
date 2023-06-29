@@ -52,16 +52,10 @@ export default {
 
 section {
     background-color: $blue;
-    padding: 50px 0;
 }
 
 img {
     height: 60px;
-}
-
-.row {
-    display: flex;
-    justify-content: space-around;
 }
 
 .col {
