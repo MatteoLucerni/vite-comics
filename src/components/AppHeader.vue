@@ -60,24 +60,30 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <nav class="navbar">
-      <a href="#">
-        <img src="../assets/img/dc-logo.png" alt="DC Comics Logo">
-      </a>
-      <ul>
-        <li v-for="link in links">
-          <a :class="{ active: link.current }" href="#">{{ link.text.toUpperCase() }}</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="#">
+          <img src="../assets/img/dc-logo.png" alt="DC Comics Logo">
+        </a>
+        <ul>
+          <li v-for="link in links">
+            <a :class="{ active: link.current }" href="#">{{ link.text.toUpperCase() }}</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 </template>
 
 <style lang="scss" scoped>
+header {
+  background-color: #fff;
+  padding-bottom: 7px;
+}
+
 nav {
   height: 100px;
-  margin-bottom: 7px;
 }
 
 img {

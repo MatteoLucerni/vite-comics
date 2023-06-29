@@ -13,9 +13,11 @@ export default {
 </script>
 
 <template>
-  <MainContent />
-  <MainJumbo />
-  <MainFooter />
+  <main>
+    <MainContent />
+    <MainJumbo />
+    <MainFooter />
+  </main>
 </template>
 
 <style scoped></style>
