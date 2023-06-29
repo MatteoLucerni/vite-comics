@@ -77,6 +77,7 @@ export default {
 <style lang="scss" scoped>
 nav {
   height: 100px;
+  margin-bottom: 7px;
 }
 
 img {
@@ -99,5 +100,6 @@ a {
   height: 100%;
   display: flex;
   align-items: center;
+  box-sizing: content-box;
 }
 </style>
