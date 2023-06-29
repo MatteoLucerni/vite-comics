@@ -71,7 +71,8 @@ img {
     h2 {
         margin-left: 15px;
         color: white;
-        font-size: 1rem;
+        font-size: 0.9rem;
+        font-weight: 500;
     }
 }
 </style>
