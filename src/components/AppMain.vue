@@ -8,13 +8,16 @@ export default {
     MainContent,
     MainJumbo,
     MainFooter,
+  },
+  props: {
+    comics: Array
   }
 }
 </script>
 
 <template>
   <main>
-    <MainContent />
+    <MainContent :comics="comics" />
     <MainJumbo />
     <MainFooter />
   </main>
