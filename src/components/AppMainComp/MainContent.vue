@@ -55,6 +55,7 @@ h1 {
 
 .card {
     width: calc(100% / 6 - 30px);
+    cursor: pointer;
 }
 
 .img-container {
