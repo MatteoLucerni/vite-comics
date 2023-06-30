@@ -110,5 +110,6 @@ h5 {
     background-color: $blue;
     font-size: 1.2rem;
     font-weight: 700;
+    cursor: pointer;
 }
 </style>
