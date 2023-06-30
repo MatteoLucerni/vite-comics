@@ -53,15 +53,6 @@ h1 {
     align-items: center;
 }
 
-span {
-    margin: 0 15px;
-    vertical-align: middle;
-}
-
-i {
-    vertical-align: middle;
-}
-
 .card {
     width: calc(100% / 6 - 30px);
 }
